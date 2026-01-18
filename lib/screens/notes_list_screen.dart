@@ -32,7 +32,7 @@ class _NotesListScreenState extends State<NotesListScreen> {
             onTap: () {
               print('User tried to reload');
             },
-            child: Icon(Icons.refresh_rounded),
+            child: const Icon(Icons.refresh_rounded),
           )
         ],
       ),
